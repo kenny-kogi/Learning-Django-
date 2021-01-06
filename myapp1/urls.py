@@ -10,7 +10,12 @@ urlpatterns = [
     path('mythirdapp', views.app3, name ='mythirdapp'),
     path('imageapp', views.app4, name ='imageapp'),
     path('imageapp2', views.app5, name ='imageapp2'),
-    path('imageapp3/<str:name>', views.app6, name ='imageapp3')
+    path('imageapp3/<str:name>', views.app6, name ='imageapp3'),
+    path('submitmyform',views.submitmyform,name='submitmyform'),
+    path('myform2',views.myform2,name='myform2')
+    
+    
+
 
 
 ]
